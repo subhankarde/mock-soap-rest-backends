@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http:google.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:createResponse>
+         <!--Optional:-->
+         <v1:CreateAffectedElementResponse>
+            <Header>
+               <Status>0</Status>
+               <!--Optional:-->
+               <Message>successAction messages(s): - Could not learn ARS User for submitter</Message>
+               <TimeStamp>
+                  <Date>2020-05-27</Date>
+                  <Time>15:25:07</Time>
+                  <TimeZone>EDT</TimeZone>
+               </TimeStamp>
+               <TransactionId>stsfdsfdsfsd</TransactionId>
+            </Header>
+            <!--Optional:-->
+            <Body>
+               <AffectedElementId>sdfdsfsdf</AffectedElementId>
+               <TicketId>sfdsfdfsdfs</TicketId>
+            </Body>
+         </v1:CreateAffectedElementResponse>
+      </v1:createResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

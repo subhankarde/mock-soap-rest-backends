@@ -1,0 +1,6 @@
+applications:
+- name: my-mock
+  memory: 512M
+  instances: 1
+  command: python mock-runner.py
+  stack: cflinuxfs3

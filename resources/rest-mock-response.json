@@ -1,0 +1,37 @@
+{
+   "responseHeader":    {
+      "status": "200 OK",
+      "message": "SUCCESS",
+      "timeStamp":       {
+         "date": "2020-04-07",
+         "time": "23:50:44",
+         "timeZone": "UTC"
+      }
+   },
+   "accountNumber": "1234",
+   "outage": true,
+   "outageInfoResponseList": [   {
+      "outageId": "1234",
+      "startTime":       {
+         "date": "2020-04-06",
+         "time": "02:42:29",
+         "timeZone": "UTC"
+      },
+      "endTime":       {
+         "date": "2020-04-07",
+         "time": "23:00:00",
+         "timeZone": "UTC"
+      },
+      "services": "TTV",
+      "outages": "CC",
+      "ticketId": "TTTT"
+   }],
+   "customerMessage":    {
+      "messageType": "AAAA",
+      "outage":       {
+         "outageTimeFrame": "YYY",
+         "outageType": "ZZZ",
+         "message": "This is a stupit message******* circumstances, this customer is experiencing an interruption affecting their XFINITY TV. We are working to resolve the issue. Interruption began on 04/05/2020 10:42 PM (Eastern) and is expected to end on as soon as possible."
+      }
+   }
+}
